@@ -25,7 +25,7 @@ class Mastofeed {
 			$theme = 'light'; 
 		}
 
-		$o = '<h3>Mastodon</h3> <iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="300" height="12000" frameBorder="0" scrolling="no" src="https://www.mastofeed.com/api/feed?url=' . urlencode($args['url']) . '.atom&theme=' . $theme . '&size=80&header=false"></iframe>';
+		$o = '<h3>Mastodon</h3> <iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="270" height="9000" frameBorder="0" scrolling="no" src="https://www.mastofeed.com/api/feed?url=' . urlencode($args['url']) . '.atom&theme=' . $theme . '&size=80&header=false"></iframe>';
 
 		return $o;
 
