@@ -4,7 +4,7 @@
 
 in your hubzilla directory use the util helper to add the plugins from git:
 
-    util/add_addon_repo https://github.com/redmatrix/hubzilla-widgets.git hubzilla-widgets
+    util/add_widget_repo https://github.com/redmatrix/hubzilla-widgets.git hubzilla-widgets
 
 then enable the desired plugins in the hubzilla admin panel:
 
